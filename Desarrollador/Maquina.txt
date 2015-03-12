@@ -1,0 +1,12 @@
+La máquina de vending proporcionará los productos mediante un brazo, el cual cogerá el producto seleccionado 
+y lo depositará en una bandeja que quedará a disposición del usuario por un breve instante.
+Según el producto almacenado en cada módulo, el brazo se moverá a su posición y lo dispensará.
+
+Dispondrá de un display en el que pondrá cierta información como el estado de la máquina, el dinero introducido, 
+el precio del producto, o la información nutricional de cada producto. También dispondrá
+de un sensor infrarrojo que detectará si quedan existencias del producto seleccionado, 
+para evitar el error humano. Para seleccionar el producto deseado, el usuario tendrá la opción de usar 
+el pad disponible en la máquina, el cual tendrá teclas en braile y números, además de poder usar la entrada por voz 
+pulsando un botón e indicando a la máquina el número del producto deseado, o incluso podrá utilizar una aplicación 
+disponible en Android, Ios, Windows Phone, etc. y mediante la cual a través de bluetooth podrá seleccionar el 
+producto que más le convenga. También podrá realizar esta operación mediante NFC e incluso realizar el pago.
