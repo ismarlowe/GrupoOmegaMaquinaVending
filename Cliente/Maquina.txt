@@ -12,6 +12,6 @@ disponible en Android, Ios, Windows Phone, etc. y mediante la cual a través de b
 producto que más le convenga. También podrá realizar esta operación mediante NFC e incluso realizar el pago.
 
 En el caso de que la cantidad de un producto esté próxima a agotarse o esté ya agotada la máquina enviará una señal a
-la central para avisar de el producto en concreto y de las existencias en caso de que las haya.
+la central para avisar del producto en concreto y de las existencias en caso de que las haya.
 La máquina también mandará una señal en el caso de que detecte un error y no funcione correctamente y en caso de que
 la cantidad de dinero dentro de ella sea la máxima permitida.
