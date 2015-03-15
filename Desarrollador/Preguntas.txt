@@ -1,11 +1,19 @@
-Preguntas sobre la m�quina de vending grupo Pi:
+- ¿Qué pasa si se le inserta una moneda que no sea el euro? ¿Acepta billetes? ¿Aceptará tarjetas de crédito?
+La máquina acepta todas las monedas de euro en circulación salvo la de 1 céntimo. No acepta otras divisas. Tampoco acepta billetes o tarjetas de crédito.
+- ¿Qué pasaría si la máquina se queda sin cambio?
+La máquina sabrá en todo momento qué cantidad de monedas tiene almacenadas y de qué tipo. Si un cliente introduce una moneda y escoge un producto tal que no es posible el cambio, la máquina anunciará por pantalla que no es posible el cambio y preguntará al cliente si quiere proseguir. Si el cliente pulsa de nuevo la tecla del mismo refresco, la máquina expenderá el refresco y no devolverá ningún cambio. Por el contrario, si el cliente pulsa el botón para recuperar el dinero introducido, lo podrá recuperar sin ningún problema. 
+- Si el cliente inserta el dinero y se equivoca de número o no hay disponibilidad de ese producto, ¿qué haría la máquina?
+La máquina que necesitamos no tiene un teclado número. Tendrá un teclado de nueve opciones, y cada tecla corresponderá a un producto concreto (tendrá una foto del producto para guiar al cliente). 
+Como es lógico, si el cliente se equivoca de tecla y el producto está disponible, no podrá revertir la operación. Si el producto no está disponible, la máquina informará de ello por pantalla.
+- En caso de que haya un error y salga por pantalla y un cliente inserte una moneda, ¿qué pasaría?
+En caso de error, todas las monedas insertadas caerán automáticamente a la ranura del cambio.
+- En la descripción se indica que al superar los 30 grados aumentan los precios 30 céntimos. Si la temperatura, una vez superado los 30 grados bajaran 30 grados o más, ¿bajarían los precios automáticamente? 
+No entiendo bien la pregunta. ¿Si la temperatura bajara 30 grados, o bajara de 30 grados? Si bajara de 30 grados, los precios volverían a su estado original. Si bajara 30 grados, haría mucho frío.  
+- Si el teclado no funcionara a la hora de cambiar los precios, ¿habría otra manera?
+Si el teclado no funcionara habría que reemplazarlo por otro. No tenemos planeado que haya otro modo de modificar los precios.
+- ¿Qué medios tiene la máquina para darle al cliente el producto que ha seleccionado?
+Esto dependerá del funcionamiento del hardware de la máquina. Se tratará de una máquina convencional sin escaparate. La lata de refresco caerá en un repositorio accesible al cliente.
+- Si la máquina aceptara billetes, ¿el cambio se podría dar en billetes?
+Sí. Pero no tenemos pensado que acepte billetes, tan sólo monedas.
 
-- �Qu� pasa si se le inserta una moneda que no sea el euro? �Acepta billetes? �Aceptar� tarjetas de cr�dito?
-- �Qu� pasar�a si la m�quina se queda sin cambio?
-- Si el cliente inserta el dinero y se equivoca de n�mero o no hay disponibilidad de ese producto, �qu� har�a la m�quina?
-- En caso de que haya un error y salga por pantalla y un cliente inserte una moneda, �qu� pasar�a?
-- En la descripci�n se indica que al superar los 30 grados aumentan los precios 30 c�ntimos. Si la temperatura,
-una vez superado los 30 grados bajaran 30 grados o m�s, �bajar�an los precios autom�ticamente?
-- Si el teclado no funcionara a la hora de cambiar los precios, �habr�a otra manera?
-- �Qu� medios tiene la m�quina para darle al cliente el producto que ha seleccionado?
-- Si la m�quina aceptara billetes, �el cambio se podr�a dar en billetes?
+Espero haber aclarado vuestras dudas. Un saludo!
