@@ -1,0 +1,7 @@
+Participantes:
+	 Ismael García Marlowe, Alejo García Galan, Dominik Lektarski.
+Descripción:
+	La máquina de vending expenderá refrescos fríos de 9 tipos diferentes, que se elegiran mediante un teclado. Acceptará monedas desde 5 centimos hasta 2 euros.  El cliente podra consulatar los precios de los productos y su disponiblidad presionando el botón corresponiente a cada uno de ellos . Una vez metida la cantidad necesaria, el cliente puede presionar la tecla correspondiente a su elección y la máquina le devolvera el cambio y su producto. La máquina dispone de un botón, que pone en marcha la devolución del importe hasta ahora insertado. 
+	El software gestionará la temperatura del frigorífico, con el fin de optimizar el gasto de energía y mantener fríos los productos. El software apagará el frigorífico al alcanzar la temperatura de 5 grados y lo volvera encender al superar los 7 . En caso de error o averia aparecerá un mensaje por pantalla indicandolo.
+	La máquina dispondra de un censor de temperatura exterior. Al superarse los 30 grados los precios aumentaran 30 centimos.
+	Dentro de la maquina habra un teclado, que nos permitra programar los precios de la máquina.
