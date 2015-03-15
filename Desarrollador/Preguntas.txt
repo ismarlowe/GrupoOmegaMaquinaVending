@@ -1,0 +1,11 @@
+Preguntas sobre la máquina de vending grupo Pi:
+
+- ¿Qué pasa si se le inserta una moneda que no sea el euro? ¿Acepta billetes? ¿Aceptará tarjetas de crédito?
+- ¿Qué pasaría si la máquina se queda sin cambio?
+- Si el cliente inserta el dinero y se equivoca de número o no hay disponibilidad de ese producto, ¿qué haría la máquina?
+- En caso de que haya un error y salga por pantalla y un cliente inserte una moneda, ¿qué pasaría?
+- En la descripción se indica que al superar los 30 grados aumentan los precios 30 céntimos. Si la temperatura,
+una vez superado los 30 grados bajaran 30 grados o más, ¿bajarían los precios automáticamente?
+- Si el teclado no funcionara a la hora de cambiar los precios, ¿habría otra manera?
+- ¿Qué medios tiene la máquina para darle al cliente el producto que ha seleccionado?
+- Si la máquina aceptara billetes, ¿el cambio se podría dar en billetes?
